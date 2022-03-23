@@ -1,0 +1,1 @@
+{"version":3,"file":"186.bundle.js","mappings":"qKAUA,QARiB,WAChB,OACC","sources":["webpack://react_practico_hexa/./src/Pages/NotFound/index.jsx"],"sourcesContent":["import React from 'react';\n\nconst NotFound = () => {\n\treturn (\n\t\t<div>\n\t\t\tNo encontrado, error 404.\n\t\t</div>\n\t);\n}\n\nexport default NotFound;\n"],"names":[],"sourceRoot":""}
