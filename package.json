@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://haba-sensei.github.io",
+  "homepage": "https://haba-sensei.github.io/react-practica-advanced",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack serve --open --mode development --config webpack.config.dev.js",
     "build": "webpack  --mode production --config webpack.config.prod.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d dist"
   },
   "keywords": [
     "react",

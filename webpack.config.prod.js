@@ -9,10 +9,12 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, "dist"),
 		filename: "bundle.js",
-		publicPath: "/",
+		publicPath: "./",
 	},
 	mode: "production",
+	target: "web",
 	devtool: "source-map",
+	cache: false,
 	resolve: {
 		extensions: [".js", ".jsx"],
 		alias: {
@@ -78,7 +80,6 @@ module.exports = {
 		new HtmlWebpackPlugin({
 			template: "./public/index.html",
 			filename: "./index.html",
-			cache: false,
 		}),
 		new MiniCssExtractPlugin({
 			filename: "[name].css",

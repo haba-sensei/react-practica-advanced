@@ -6,9 +6,9 @@ import App from "@routes/App";
 
 ReactDOM.render(
 	<React.StrictMode>
-			<Router> 
-				<App /> 
-			</Router>
+		<Router basename='/reactPractico'>
+			<App />
+		</Router>
 	</React.StrictMode>,
 	document.getElementById("app")
 );
