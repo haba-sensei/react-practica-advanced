@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkreact_practico_hexa=self.webpackChunkreact_practico_hexa||[]).push([[186],{2186:(e,r,c)=>{c.r(r),c.d(r,{default:()=>a});var t=c(7294);const a=function(){return t.createElement("div",null,"No encontrado, error 404.")}}}]);
-//# sourceMappingURL=186.bundle.js.map
